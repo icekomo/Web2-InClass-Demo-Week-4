@@ -1,0 +1,56 @@
+/* =============
+    History
+============= */
+#history {
+    section {
+        background-image: url("../img/history/history.jpg");
+        background-position: -40px -40px;
+        border-radius: 100px;
+        height: 113px;
+        margin: 0 auto;
+        width: 113px;
+    }
+
+    article:nth-child(2) {
+
+        h1 {
+            color: $sunflower;
+            font-family: 'Comfortaa', cursive;
+            font-size: rem-calc(31);
+            font-weight: 700;
+            margin: 52px 0 37px;
+            text-align: center;
+
+            span {
+                font-size: rem-calc(48);
+            }
+        }
+
+        h4 {
+            font-size: rem-calc(17);
+            font-weight: 400;
+            text-align: center;
+        }
+
+        p {
+            font-size: rem-calc(18);
+            font-weight: 600;
+            line-height: rem-calc(22);
+            margin-top: 30px;
+            text-align: justify;
+        }
+    }
+
+    article:nth-child(3) {
+        margin-top: 40px;
+
+        h3 {
+            font-size: rem-calc(16);
+        }
+
+        p {
+            line-height: rem-calc(22);
+            text-align: justify;
+        }
+    }
+}
